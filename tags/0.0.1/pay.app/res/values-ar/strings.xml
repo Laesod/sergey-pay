@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- ZXing consts -->
+	<string name="msg_default_format">شكل</string>
+	<string name="msg_default_type">نوع</string>
+	<string name="msg_default_time">مرة</string>
+	<string name="msg_default_meta">الفوقية</string>
+	<string name="button_google_shopper">Google Shopper</string>
+	<string name="msg_default_status">وضع الباركود داخل المستطيل الفاحصة لفحص ذلك.</string>
+	<string name="msg_encode_contents_failed">لا يمكن تشفير الباركود من البيانات المقدمة.</string>
+	<string name="button_ok">موافق</string>
+	<string name="msg_camera_framework_bug">آسف، واجه الكاميرا الروبوت مشكلة. قد تحتاج إلى إعادة تشغيل الجهاز.</string>
+	<!-- AP consts -->
+    <string name="app_name">Sergey Pay</string>
+    <string name="lc_receiver_email">استقبال البريد الإلكتروني</string>
+    <string name="lc_send">إرسال</string>
+    <string name="lc_balance">توازن</string>
+    <string name="lc_send_money">ارسال الأموال</string>
+    <string name="lc_transactions">المعاملات</string>
+    <string name="lc_amount">كمية</string>
+    <string name="lc_currency">عملة</string>
+    <string name="lc_purchase_type">شراء نوع</string>
+    <string name="lc_note">مذكرة</string>
+    <string name="lc_date_">تاريخ :</string>
+    <string name="lc_reference_number_">الرقم المرجعي :</string>
+    <string name="lc_transaction_type_">نوع الصفقة :</string>
+    <string name="lc_name_email_">الاسم / البريد الالكتروني :</string>
+    <string name="lc_current_status_">الوضع الحالي :</string>
+    <string name="lc_amount_">المبلغ :</string>
+    <string name="lc_purchase_type_">شراء النوع :</string>
+    <string name="lc_shipping_details_">الشحن التفاصيل :</string>
+    <string name="lc_details_optional_">التفاصيل (اختياري) :</string>
+    <string name="lc_transaction_details">تفاصيل الصفقة</string>
+    <string name="lc_scan">تفحص</string>
+	<string name="lc_encode">ترميز</string>
+	<string name="lc_preferences">تفضيلات</string>
+    <string name="set_preferences">تفضيلات</string>
+    <string name="preference_category_login_information">معلومات تسجيل الدخول</string>
+    <string name="preferences_login_title">دخول</string>
+    <string name="preferences_login_summary">دخول</string>
+    <string name="preferences_password_title">كلمة السر</string>
+    <string name="preferences_password_summary">كلمة السر</string>
+    <string name="preferences_remember_me_title">تذكرني</string>
+    <string name="preferences_remember_me_summary">تذكرني</string>
+    <string name="lc_login">دخول</string>
+    <string name="lc_password">كلمة السر</string>
+    <string name="lc_button_login">دخول</string>
+    <string name="lc_remember_me">تذكرني</string>
+    <string name="lc_button_view_account">عرض الحساب</string>
+    <string name="lc_button_language">لغة</string>
+    <string name="lc_button_about">حول</string>
+    <string name="lc_visit_alertpay_com"><a href="https://www.alertpay.com">زيارة AlertPay.com</a></string>
+    <string name="lc_privacy_and_security"><a href="https://www.alertpay.com/en/privacy.aspx">الخصوصية والأمن</a></string>
+    <string name="lc_legal"><a href="https://www.alertpay.com/en/legal.aspx">قانوني</a></string>
+    <string name="lc_alertpay_logo">Sergey Pay</string>
+    <string name="lc_alertpay_mobile">Sergey Pay المحمول</string>
+    <string name="lc_version">الإصدار 1.0</string>
+    <string name="lc_about">حول</string>
+    <string name="lc_header_login">دخول</string>
+    <string name="lc_have_not_account">لم حساب? <a href="https://www.alertpay.com/signup/signup.aspx">الاشتراك!</a></string>
+    <string name="lc_logout">خروج</string>
+    <string name="lc_account_header">حساب</string>
+    <string name="lc_please_wait">يرجى الانتظار</string>
+    
+</resources>

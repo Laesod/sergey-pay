@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- ZXing consts -->
+	<string name="msg_default_format">ֆորմատ</string>
+	<string name="msg_default_type">տեսակ</string>
+	<string name="msg_default_time">ժամանակ</string>
+	<string name="msg_default_meta">տեղեկություններ եվ տվյալներ տվյալների մասին</string>
+	<string name="button_google_shopper">Google Shopper</string>
+	<string name="msg_default_status">Տեղ մի շտրիխ ներսում, տեսադաշտ որոնող հարմարանք է ուղղանկյան սկան այն.</string>
+	<string name="msg_encode_contents_failed">Չհաջողվեց ծածկագրել մի շտրիխ - ից նախատեսված տվյալները.</string>
+	<string name="button_ok">OK</string>
+	<string name="msg_camera_framework_bug">Ներեցեք, Android տեսախցիկ հանդիպել խնդիր. Դուք պետք է Վերագործարկեք սարքը.</string>
+	<!-- AP consts -->
+    <string name="app_name">Sergey Pay</string>
+    <string name="lc_receiver_email">Ընդունիչ E-mail</string>
+    <string name="lc_send">ուղարկել</string>
+    <string name="lc_balance">մնացորդ</string>
+    <string name="lc_send_money">ՈՒղարկել Դրամ</string>
+    <string name="lc_transactions">գործարքները</string>
+    <string name="lc_amount">գումար</string>
+    <string name="lc_currency">Արտարժույթի</string>
+    <string name="lc_purchase_type">Ձեռք տեսակը</string>
+    <string name="lc_note">նշում</string>
+    <string name="lc_date_">Ամսաթիվ.</string>
+    <string name="lc_reference_number_">Միավորների քան Տեղեկագրություն:</string>
+    <string name="lc_transaction_type_">Գործարքի տեսակը:</string>
+    <string name="lc_name_email_">Անունը / Email:</string>
+    <string name="lc_current_status_">Ներկա կարգավիճակը:</string>
+    <string name="lc_amount_">գումարը:</string>
+    <string name="lc_purchase_type_">Ձեռք տեսակը:</string>
+    <string name="lc_shipping_details_">Սայլակ Details:</string>
+    <string name="lc_details_optional_">Մանրամասներ (ըստ ցանկության):</string>
+    <string name="lc_transaction_details">գործարքի մանրամասները</string>
+    <string name="lc_scan">տվյալների հաջորդաբար ընթերցումը</string>
+	<string name="lc_encode">ծածկագրել</string>
+	<string name="lc_preferences">Նախընտրանքներ</string>
+    <string name="set_preferences">Նախընտրանքներ</string>
+    <string name="preference_category_login_information">Մուտք տեղեկատվություն</string>
+    <string name="preferences_login_title">Մուտք</string>
+    <string name="preferences_login_summary">Մուտք</string>
+    <string name="preferences_password_title">Գաղտնաբառ</string>
+    <string name="preferences_password_summary">Գաղտնաբառ</string>
+    <string name="preferences_remember_me_title">Հիշել ինձ</string>
+    <string name="preferences_remember_me_summary">Հիշել ինձ</string>
+    <string name="lc_login">Մուտք</string>
+    <string name="lc_password">Գաղտնաբառ</string>
+    <string name="lc_button_login">Մուտք</string>
+    <string name="lc_remember_me">Հիշել ինձ</string>
+    <string name="lc_button_view_account">Դիտել Հաշվի</string>
+    <string name="lc_button_language">լեզու</string>
+    <string name="lc_button_about">մոտ</string>
+    <string name="lc_visit_alertpay_com"><a href="https://www.alertpay.com">այցելել AlertPay.com</a></string>
+    <string name="lc_privacy_and_security"><a href="https://www.alertpay.com/en/privacy.aspx">Գաղտնիության եւ անվտանգության</a></string>
+    <string name="lc_legal"><a href="https://www.alertpay.com/en/legal.aspx">իրավական</a></string>
+    <string name="lc_alertpay_logo">Sergey Pay</string>
+    <string name="lc_alertpay_mobile">Sergey Pay Բջջային</string>
+    <string name="lc_version">տարբերակ 1.0</string>
+    <string name="lc_about">մոտ</string>
+    <string name="lc_header_login">Մուտք</string>
+    <string name="lc_have_not_account">Չեն հաշիվը? <a href="https://www.alertpay.com/signup/signup.aspx">Գրանցվել!</a></string>
+    <string name="lc_logout">Ելք</string>
+    <string name="lc_account_header">հաշիվ</string>
+    <string name="lc_please_wait">Խնդրում ենք սպասել</string>
+    
+</resources>

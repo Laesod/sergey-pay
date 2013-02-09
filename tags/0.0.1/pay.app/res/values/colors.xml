@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- ZXing consts -->
+	<color name="possible_result_points">#c0ffff00</color>
+	<color name="viewfinder_frame">#ff000000</color>
+	<color name="viewfinder_laser">#ffff0000</color>
+	<color name="viewfinder_mask">#60000000</color>
+	<color name="contents_text">#ff000000</color>
+	<color name="encode_view">#ffffffff</color>
+	<color name="status_text">#ffffffff</color>
+	<color name="result_text">#ffffffff</color>
+	<color name="result_minor_text">#ffc0c0c0</color>
+	<color name="result_view">#b0000000</color>
+	<color name="transparent">#00000000</color>
+	<!-- AP consts -->
+    <color name="green">#ff00bb00</color>
+    <color name="xmiddlegreen">#ff55ff55</color>
+    <color name="middlegreen">#ffaaffaa</color>
+    <color name="lightgreen">#ffddffdd</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    
+</resources>

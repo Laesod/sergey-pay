@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- ZXing consts -->
+	<string name="msg_default_format">Formato</string>
+	<string name="msg_default_type">Tipo</string>
+	<string name="msg_default_time">Tempo</string>
+	<string name="msg_default_meta">Metadata</string>
+	<string name="button_google_shopper">Google Shopper</string>
+	<string name="msg_default_status">Enquadre o código de barras no localizador para rastreá-lo.</string>
+	<string name="msg_encode_contents_failed">Não foi possível rastrear o código de barras.</string>
+	<string name="button_ok">OK</string>
+	<string name="msg_camera_framework_bug">Infelizmete houve um problema com câmera do Android. Talvez você tenha que reinicializar o aparelho.</string>
+	<!-- AP consts -->
+    <string name="app_name">Sergey Pay</string>
+    <string name="lc_receiver_email">Destinatário do e-mail</string>
+    <string name="lc_send">Enviar</string>
+    <string name="lc_balance">Saldo</string>
+    <string name="lc_send_money">Enviar Dinheiro</string>
+    <string name="lc_transactions">Transações</string>
+    <string name="lc_amount">Valor</string>
+    <string name="lc_currency">Moeda</string>
+    <string name="lc_purchase_type">Tipo da Compra</string>
+    <string name="lc_note">Nota</string>
+    <string name="lc_date_">Data:</string>
+    <string name="lc_reference_number_">Número de referência:</string>
+    <string name="lc_transaction_type_">Tipo de transação:</string>
+    <string name="lc_name_email_">Nome/Email:</string>
+    <string name="lc_current_status_">Situação atual:</string>
+    <string name="lc_amount_">Valor:</string>
+    <string name="lc_purchase_type_">Tipo da compra:</string>
+    <string name="lc_shipping_details_">Detalhe do endereço de envio:</string>
+    <string name="lc_details_optional_">Detalhes (opcional):</string>
+    <string name="lc_transaction_details">Detalhes da transação</string>
+    <string name="lc_scan">Rastrear</string>
+	<string name="lc_encode">Digitalizar</string>
+	<string name="lc_preferences">Preferências</string>
+    <string name="set_preferences">Preferências</string>
+    <string name="preference_category_login_information">Nome de início de sessão</string>
+    <string name="preferences_login_title">Nome de sessão</string>
+    <string name="preferences_login_summary">Nome de sessão</string>
+    <string name="preferences_password_title">Senha</string>
+    <string name="preferences_password_summary">Senha</string>
+    <string name="preferences_remember_me_title">Lembre-me</string>
+    <string name="preferences_remember_me_summary">Lembre-me</string>
+    <string name="lc_login">Nome de sessão</string>
+    <string name="lc_password">Senha</string>
+    <string name="lc_button_login">Nome de sessão</string>
+    <string name="lc_remember_me">Lembre-me</string>
+    <string name="lc_button_view_account">Ver conta</string>
+    <string name="lc_button_language">Língua</string>
+    <string name="lc_button_about">Sobre</string>
+    <string name="lc_visit_alertpay_com"><a href="https://www.alertpay.com">Visitar AlertPay.com</a></string>
+    <string name="lc_privacy_and_security"><a href="https://www.alertpay.com/en/privacy.aspx">Privacidade e segurança</a></string>
+    <string name="lc_legal"><a href="https://www.alertpay.com/en/legal.aspx">Legalidade</a></string>
+    <string name="lc_alertpay_logo">Sergey Pay</string>
+    <string name="lc_alertpay_mobile">Sergey Pay mobile</string>
+    <string name="lc_version">Versão 1.0</string>
+    <string name="lc_about">Sobre</string>
+    <string name="lc_header_login">Nome de sessão</string>
+    <string name="lc_have_not_account">Não tem uma conta? <a href="https://www.alertpay.com/signup/signup.aspx">Signup!</a></string>
+    <string name="lc_logout">Sair</string>
+    <string name="lc_account_header">Conta</string>
+    <string name="lc_please_wait">Por favor espere...</string>
+    
+</resources>

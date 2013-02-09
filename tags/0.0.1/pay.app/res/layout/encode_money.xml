@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@color/lightgreen"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+	<TextView style="@style/ap_header_label" android:id="@+id/textViewLogo" android:text="@string/lc_encode"/>
+	<ScrollView
+	  android:orientation="vertical"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent">
+	    <LinearLayout 
+		  android:focusable="true" 
+		  android:focusableInTouchMode="true"
+	      android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		    <TextView android:layout_width="wrap_content" 
+		    	android:layout_height="wrap_content" 
+		    	android:id="@+id/textviewAmount" style="@style/ap_label" android:text="@string/lc_amount"/>
+			<EditText 
+				android:id="@+id/editTextAmount" android:inputType="numberDecimal" style="@style/ap_text" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+			<Button style="@style/ap_button"
+		    	android:layout_alignParentRight="true"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:id="@+id/buttonEncode" android:text="@string/lc_encode"/>
+	    </LinearLayout>
+	</ScrollView>
+</LinearLayout>
