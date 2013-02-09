@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@color/lightgreen"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+	<TextView style="@style/ap_header_label" android:id="@+id/textViewLogo" android:text="@string/lc_send_money"/>
+	<ScrollView
+	  android:orientation="vertical"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent">
+		<LinearLayout
+		  android:focusable="true" 
+		  android:focusableInTouchMode="true"
+		  android:orientation="vertical"
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent">
+		    <TextView style="@style/ap_label" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/lc_receiver_email" android:id="@+id/textViewReceiverEmail" ></TextView>
+		    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="textEmailAddress" android:id="@+id/editTextReciverEmail" style="@style/ap_text"></EditText>
+			<RelativeLayout
+			  android:layout_width="fill_parent"
+			  android:layout_height="fill_parent">
+			    <TextView 
+			    	android:layout_alignParentLeft="true" 
+			    	android:text="@string/lc_amount" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textViewAmount" style="@style/ap_label"></TextView>
+				<RelativeLayout
+				  android:layout_toRightOf="@+id/textViewAmount"
+				  android:layout_marginLeft="10dip"
+				  android:layout_width="wrap_content"
+				  android:layout_height="wrap_content">
+				    <Spinner 
+			    		android:layout_alignParentRight="true" 
+				    	android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/spinnerCurrency"></Spinner>
+				    <EditText
+				    	android:layout_toLeftOf="@+id/spinnerCurrency"
+						android:layout_marginRight="10dip"
+				    	android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="numberDecimal" android:id="@+id/editTextAmount" style="@style/ap_text"></EditText>
+				</RelativeLayout>
+			</RelativeLayout>
+			<RelativeLayout
+			  android:layout_width="fill_parent"
+			  android:layout_height="fill_parent">
+		    	<TextView 
+			    	android:layout_alignParentLeft="true" 
+		    		android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textViewPurchaseType" android:text="@string/lc_purchase_type" style="@style/ap_label"></TextView>
+		    	<Spinner 
+			    	android:layout_toRightOf="@+id/textViewPurchaseType"
+					android:layout_marginLeft="10dip"
+		    		android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/spinnerPurchaseType"></Spinner>
+			</RelativeLayout>
+			<RelativeLayout
+			  android:layout_width="fill_parent"
+			  android:layout_height="fill_parent">
+		    	<TextView 
+			    	android:layout_alignParentLeft="true" 
+		    		android:text="@string/lc_note" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textViewNote" style="@style/ap_label"></TextView>
+		    	<EditText style="@style/ap_text" 
+			    	android:layout_toRightOf="@+id/textViewNote"
+					android:layout_marginLeft="10dip"
+		    		android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="textMultiLine" android:id="@+id/editTextNote" ></EditText>
+			</RelativeLayout>
+	
+			<RelativeLayout
+			  android:layout_width="fill_parent"
+			  android:layout_height="fill_parent">
+			    <Button style="@style/ap_button"
+			    	android:layout_alignParentLeft="true"
+			    	android:id="@+id/buttonSend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lc_send"></Button>
+			</RelativeLayout>
+			<RelativeLayout
+			  android:layout_width="fill_parent"
+			  android:layout_height="fill_parent">
+			    <Button style="@style/ap_button" 
+			    	android:layout_alignParentRight="true"
+			    	android:id="@+id/buttonScan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lc_scan"></Button>
+			</RelativeLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
+	

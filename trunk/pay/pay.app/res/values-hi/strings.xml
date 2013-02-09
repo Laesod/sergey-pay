@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- ZXing consts -->
+	<string name="msg_default_format">प्रारूप</string>
+	<string name="msg_default_type">टाइप</string>
+	<string name="msg_default_time">समय</string>
+	<string name="msg_default_meta">मेटाडाटा</string>
+	<string name="button_google_shopper">Google Shopper</string>
+	<string name="msg_default_status">दृश्यदर्शी आयत के अंदर एक बारकोड प्लेस इसे स्कैन.</string>
+	<string name="msg_encode_contents_failed">उपलब्ध कराए गए आंकड़ों से एक बारकोड सांकेतिक शब्दों में बदलना नहीं कर सका.</string>
+	<string name="button_ok">ठीक है</string>
+	<string name="msg_camera_framework_bug">क्षमा करें, Android कैमरा एक समस्या का सामना करना पड़ा. आप डिवाइस को पुनरारंभ करने की आवश्यकता हो सकती है.</string>
+	<!-- AP consts -->
+    <string name="app_name">Sergey Pay</string>
+    <string name="lc_receiver_email">ई - मेल रिसीवर</string>
+    <string name="lc_send">भेजें</string>
+    <string name="lc_balance">संतुलन</string>
+    <string name="lc_send_money">मनी भेजें</string>
+    <string name="lc_transactions">लेन - देन</string>
+    <string name="lc_amount">राशि</string>
+    <string name="lc_currency">मुद्रा</string>
+    <string name="lc_purchase_type">खरीद प्रकार</string>
+    <string name="lc_note">नोट</string>
+    <string name="lc_date_">दिनांक:</string>
+    <string name="lc_reference_number_">संदर्भ संख्या:</string>
+    <string name="lc_transaction_type_">लेन - देन प्रकार:</string>
+    <string name="lc_name_email_">नाम / ईमेल:</string>
+    <string name="lc_current_status_">वर्तमान स्थिति:</string>
+    <string name="lc_amount_">राशि:</string>
+    <string name="lc_purchase_type_">प्रकार खरीद:</string>
+    <string name="lc_shipping_details_">नौवहन विवरण:</string>
+    <string name="lc_details_optional_">विवरण (वैकल्पिक):</string>
+    <string name="lc_transaction_details">लेन - देन विवरण</string>
+    <string name="lc_scan">स्कैन</string>
+	<string name="lc_encode">सांकेतिक शब्दों में बदलना</string>
+	<string name="lc_preferences">वरीयताएँ</string>
+    <string name="set_preferences">वरीयताएँ</string>
+    <string name="preference_category_login_information">लॉगिन जानकारी</string>
+    <string name="preferences_login_title">लॉगिन</string>
+    <string name="preferences_login_summary">लॉगिन</string>
+    <string name="preferences_password_title">पासवर्ड</string>
+    <string name="preferences_password_summary">पासवर्ड</string>
+    <string name="preferences_remember_me_title">मुझे याद रखें</string>
+    <string name="preferences_remember_me_summary">मुझे याद रखें</string>
+    <string name="lc_login">लॉगिन</string>
+    <string name="lc_password">पासवर्ड</string>
+    <string name="lc_button_login">लॉगिन</string>
+    <string name="lc_remember_me">मुझे याद रखें</string>
+    <string name="lc_button_view_account">खाता देखें</string>
+    <string name="lc_button_language">भाषा</string>
+    <string name="lc_button_about">के बारे में</string>
+    <string name="lc_visit_alertpay_com"><a href="https://www.alertpay.com">भेंट AlertPay.com</a></string>
+    <string name="lc_privacy_and_security"><a href="https://www.alertpay.com/en/privacy.aspx">गोपनीयता और सुरक्षा</a></string>
+    <string name="lc_legal"><a href="https://www.alertpay.com/en/legal.aspx">कानूनी</a></string>
+    <string name="lc_alertpay_logo">Sergey Pay</string>
+    <string name="lc_alertpay_mobile">Sergey Pay मोबाइल</string>
+    <string name="lc_version">संस्करण 1.0</string>
+    <string name="lc_about">के बारे में</string>
+    <string name="lc_header_login">लॉगिन</string>
+    <string name="lc_have_not_account">खाते में नहीं है? <a href="https://www.alertpay.com/signup/signup.aspx">साइनअप!</a></string>
+    <string name="lc_logout">लॉगआउट</string>
+    <string name="lc_account_header">खाता</string>
+    <string name="lc_please_wait">कृपया प्रतीक्षा करें</string>
+    
+</resources>

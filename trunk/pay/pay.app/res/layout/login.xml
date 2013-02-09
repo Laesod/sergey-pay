@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@color/lightgreen"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+	<TextView style="@style/ap_header_label" android:id="@+id/textViewLogo" android:text="@string/lc_header_login"/>
+	<ScrollView 
+	  android:layout_width="fill_parent" 
+	  android:layout_height="wrap_content">
+		<LinearLayout
+		  android:focusable="true" 
+		  android:focusableInTouchMode="true"
+		  android:orientation="vertical"
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent">
+		    <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:src="@drawable/icon" android:layout_width="wrap_content" android:layout_gravity="center" android:layout_margin="10dp"></ImageView>
+		    <EditText style="@style/ap_text" 
+		    	android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/editTextLogin" android:hint="@string/lc_login"></EditText>
+		    <EditText style="@style/ap_text" 
+		    	android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="textPassword" android:id="@+id/editTextPassword" android:hint="@string/lc_password"></EditText>
+		    <CheckBox style="@style/ap_check_box"
+		    	android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/checkBoxRememberMe" android:text="@string/lc_remember_me"></CheckBox>
+		    <Button style="@style/ap_button" 
+		    	android:id="@+id/buttonLogin" android:layout_height="wrap_content" android:text="@string/lc_button_login" android:layout_width="fill_parent"></Button>
+		    <TextView android:layout_height="wrap_content" android:gravity="center" android:layout_width="fill_parent" android:id="@+id/textViewSignup" android:text="@string/lc_have_not_account"></TextView>
+		    
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

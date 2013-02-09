@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory android:title="@string/preference_category_login_information">
+    <EditTextPreference
+        android:key="preferences_login"
+        android:title="@string/preferences_login_title"
+        android:summary="@string/preferences_login_summary"/>
+    <EditTextPreference
+        android:key="preferences_password"
+        android:title="@string/preferences_password_title"
+        android:summary="@string/preferences_password_summary"/>
+    <CheckBoxPreference
+        android:key="preferences_remember_me"
+        android:title="@string/preferences_remember_me_title"
+        android:summary="@string/preferences_remember_me_summary"/>
+  </PreferenceCategory>
+    
+</PreferenceScreen>

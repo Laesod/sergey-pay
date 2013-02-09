@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@color/lightgreen"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+	<TextView style="@style/ap_header_label" android:id="@+id/textViewLogo" android:text="@string/lc_transaction_details"/>
+	<ScrollView 
+	  android:layout_width="fill_parent" 
+	  android:layout_height="wrap_content">
+		<LinearLayout
+		  android:orientation="vertical"
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent">
+			<TextView android:id="@+id/textViewDateLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lc_date_" style="@style/ap_label"></TextView>
+			<TextView android:id="@+id/textViewDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" style="@style/ap_text_label"></TextView>
+			<TextView android:id="@+id/textViewReferenceNumberLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lc_reference_number_" style="@style/ap_label"></TextView>
+			<TextView android:id="@+id/textViewReferenceNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView"  style="@style/ap_text_label"></TextView>
+			<TextView android:id="@+id/textViewTransactionTypeLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lc_transaction_type_" style="@style/ap_label"></TextView>
+			<TextView android:id="@+id/textViewTransactionType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" style="@style/ap_text_label"></TextView>
+			<TextView android:id="@+id/textViewNameEmailLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lc_name_email_" style="@style/ap_label"></TextView>
+			<TextView android:id="@+id/textViewNameEmail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" style="@style/ap_text_label"></TextView>
+			<TextView android:id="@+id/textViewCurrentStatusLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lc_current_status_" style="@style/ap_label"></TextView>
+			<TextView android:id="@+id/textViewCurrentStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" style="@style/ap_text_label"></TextView>
+			<TextView android:id="@+id/textViewAmountLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lc_amount_" style="@style/ap_label"></TextView>
+			<TextView android:id="@+id/textViewAmount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" style="@style/ap_text_label"></TextView>
+			<TextView android:id="@+id/textViewPurchaseTypeLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lc_purchase_type_" style="@style/ap_label"></TextView>
+			<TextView android:id="@+id/textViewPurchaseType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" style="@style/ap_text_label"></TextView>
+			<TextView android:id="@+id/textViewShippingDetaisLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lc_shipping_details_" style="@style/ap_label"></TextView>
+			<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:id="@+id/textViewShippingDetails" style="@style/ap_text_label"></TextView>
+			<TextView android:id="@+id/textViewDetailLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lc_details_optional_" style="@style/ap_label"></TextView>
+			<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:id="@+id/textViewDetails" style="@style/ap_text_label"></TextView>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
