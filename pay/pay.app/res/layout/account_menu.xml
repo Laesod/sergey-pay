@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@color/lightgreen"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+	<TextView style="@style/ap_header_label" android:id="@+id/textViewLogo" android:text="@string/lc_account_header"/>
+	<ScrollView 
+	  android:layout_width="fill_parent" 
+	  android:layout_height="wrap_content">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent">
+		    <Button  style="@style/ap_button"
+		    	android:layout_height="wrap_content" android:id="@+id/buttonBalance" android:text="@string/lc_balance" android:drawablePadding="5dp" android:layout_marginTop="10dp" android:drawableLeft="@drawable/ic_tab_ballance_white" android:layout_width="fill_parent" android:gravity="left" android:drawableRight="@drawable/right_green_arrow" android:background="@drawable/cool_button_background"></Button>
+		    <Button style="@style/ap_button"
+		    	android:layout_height="wrap_content" android:id="@+id/buttonSendMoney" android:text="@string/lc_send_money" android:drawableLeft="@drawable/ic_tab_send_money_white" android:drawablePadding="5dp" android:layout_width="fill_parent"  android:gravity="left" android:drawableRight="@drawable/right_green_arrow" android:background="@drawable/cool_button_background"></Button>
+		    <Button style="@style/ap_button"
+		    	android:layout_height="wrap_content" android:id="@+id/buttonTransactions" android:text="@string/lc_transactions" android:layout_gravity="center" android:drawableLeft="@drawable/ic_tab_transactions_white" android:drawablePadding="5dp" android:layout_width="fill_parent" android:gravity="left" android:drawableRight="@drawable/right_green_arrow" android:background="@drawable/cool_button_background"></Button>
+		    <Button style="@style/ap_button"
+		    	android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/buttonEncode" android:text="@string/lc_encode" android:drawableLeft="@drawable/microqr" android:drawablePadding="5dp" android:layout_width="fill_parent" android:gravity="left" android:drawableRight="@drawable/right_green_arrow" android:background="@drawable/cool_button_background"></Button>
+		    <Button style="@style/ap_button"
+		    	android:layout_height="wrap_content" android:id="@+id/buttonLogout" android:text="@string/lc_logout" android:layout_gravity="center" android:layout_width="fill_parent" android:gravity="left" android:paddingLeft="50dp" android:drawableRight="@drawable/right_green_arrow" android:background="@drawable/cool_button_background"></Button>
+			<Button style="@style/ap_button"
+			    android:layout_height="wrap_content" android:id="@+id/buttonPreferences" android:text="@string/lc_preferences" android:layout_gravity="center" android:layout_width="fill_parent" android:gravity="left" android:paddingLeft="50dp" android:drawableRight="@drawable/right_green_arrow" android:background="@drawable/cool_button_background" android:visibility="gone"/>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

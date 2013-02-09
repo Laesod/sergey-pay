@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="true" >
+		<shape android:shape="rectangle">
+			<corners android:radius="@dimen/button_radius" />
+			<stroke
+		      android:width="@dimen/button_stroke"
+		      android:color="@color/green" />
+			<padding
+		      android:left="@dimen/button_padding"
+		      android:top="@dimen/button_padding"
+		      android:right="@dimen/button_padding"
+		      android:bottom="@dimen/button_padding" />
+			<gradient
+		        android:angle="270"
+		        android:startColor="@color/lightgreen"
+		        android:endColor="@color/middlegreen"
+		        android:type="linear" />
+		</shape>
+	</item>
+	
+	<item android:state_focused="true" >
+		<shape android:shape="rectangle">
+			<corners android:radius="@dimen/button_radius" />
+			<stroke
+		      android:width="@dimen/button_stroke"
+		      android:color="@color/green" />
+			<padding
+		      android:left="@dimen/button_padding"
+		      android:top="@dimen/button_padding"
+		      android:right="@dimen/button_padding"
+		      android:bottom="@dimen/button_padding" />
+			<gradient
+		        android:angle="270"
+		        android:startColor="@color/lightgreen"
+		        android:endColor="@color/xmiddlegreen"
+		        android:type="linear" />
+		</shape>
+	</item>
+	
+	<item>
+		<shape android:shape="rectangle">
+			<corners android:radius="@dimen/button_radius" />
+			<stroke
+		      android:width="@dimen/button_stroke"
+		      android:color="@color/green" />
+			<padding
+		      android:left="@dimen/button_padding"
+		      android:top="@dimen/button_padding"
+		      android:right="@dimen/button_padding"
+		      android:bottom="@dimen/button_padding" />
+			<gradient
+		        android:angle="270"
+		        android:startColor="@color/white"
+		        android:endColor="@color/lightgreen"
+		        android:type="linear" />
+		</shape>
+	</item>
+</selector>

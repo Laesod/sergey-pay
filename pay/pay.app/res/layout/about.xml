@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@color/lightgreen"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+	<TextView style="@style/ap_header_label" android:id="@+id/textViewLogo" android:text="@string/lc_about"/>
+	<ScrollView 
+	  android:layout_width="fill_parent" 
+	  android:layout_height="wrap_content">
+		<LinearLayout
+		  android:orientation="vertical"
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent">
+		    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:layout_marginBottom="20dp" android:layout_width="wrap_content" android:gravity="center_horizontal" android:layout_marginLeft="20dp">
+		        <ImageView android:layout_width="wrap_content" android:id="@+id/imageView1" android:src="@drawable/icon" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_marginRight="20dp"></ImageView>
+		        <LinearLayout android:id="@+id/linearLayout2" android:orientation="vertical" 
+		        	android:layout_width="fill_parent" android:layout_height="wrap_content">
+		            <TextView style="@style/ap_label"
+		            	android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:text="@string/lc_sergeypay_mobile"></TextView>
+		            <TextView style="@style/ap_label"
+		            	android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2" android:text="@string/lc_version"></TextView>
+		        </LinearLayout>
+		    </LinearLayout>
+		    
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

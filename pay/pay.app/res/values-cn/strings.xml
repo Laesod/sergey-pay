@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- ZXing consts -->
+	<string name="msg_default_format">格式</string>
+	<string name="msg_default_type">类型</string>
+	<string name="msg_default_time">时间</string>
+	<string name="msg_default_meta">元数据</string>
+	<string name="button_google_shopper">Google Shopper</string>
+	<string name="msg_default_status">请将条形码放置于识别区并扫描.</string>
+	<string name="msg_encode_contents_failed">无法识别条形码.</string>
+	<string name="button_ok">确定</string>
+	<string name="msg_camera_framework_bug">对不起, 安卓相机遇到了一个技术问题. 可能需要重新启动.</string>
+	<!-- AP consts -->
+    <string name="app_name">Sergey Pay</string>
+    <string name="lc_receiver_email">收件人</string>
+    <string name="lc_send">发送</string>
+    <string name="lc_balance">余额</string>
+    <string name="lc_send_money">支付</string>
+    <string name="lc_transactions">交易记录</string>
+    <string name="lc_amount">金额</string>
+    <string name="lc_currency">币种</string>
+    <string name="lc_purchase_type">购买种类</string>
+    <string name="lc_note">备注</string>
+    <string name="lc_date_">时间:</string>
+    <string name="lc_reference_number_">交易代码:</string>
+    <string name="lc_transaction_type_">交易类型:</string>
+    <string name="lc_name_email_">姓名/邮箱:</string>
+    <string name="lc_current_status_">目前状态:</string>
+    <string name="lc_amount_">金额:</string>
+    <string name="lc_purchase_type_">购买种类:</string>
+    <string name="lc_shipping_details_">邮寄细节:</string>
+    <string name="lc_details_optional_">细节 (可选):</string>
+    <string name="lc_transaction_details">交易明细</string>
+    <string name="lc_scan">扫描</string>
+	<string name="lc_encode">编码</string>
+	<string name="lc_preferences">习惯设定</string>
+    <string name="set_preferences">习惯设定</string>
+    <string name="preference_category_login_information">登陆信息</string>
+    <string name="preferences_login_title">登录</string>
+    <string name="preferences_login_summary">登录</string>
+    <string name="preferences_password_title">密码</string>
+    <string name="preferences_password_summary">密码</string>
+    <string name="preferences_remember_me_title">记住密码</string>
+    <string name="preferences_remember_me_summary">记住密码</string>
+    <string name="lc_login">登录</string>
+    <string name="lc_password">密码</string>
+    <string name="lc_button_login">登录</string>
+    <string name="lc_remember_me">记住密码</string>
+    <string name="lc_button_view_account">查看账户</string>
+    <string name="lc_button_language">语言</string>
+    <string name="lc_button_about">关于</string>
+    <string name="lc_visit_alertpay_com"><a href="https://www.alertpay.com">访问 AlertPay.com</a></string>
+    <string name="lc_privacy_and_security"><a href="https://www.alertpay.com/en/privacy.aspx">隐私和安全</a></string>
+    <string name="lc_legal"><a href="https://www.alertpay.com/en/legal.aspx">版权所有</a></string>
+    <string name="lc_alertpay_logo">Sergey Pay</string>
+    <string name="lc_alertpay_mobile">Sergey Pay 手机版</string>
+    <string name="lc_version">版本 1.0</string>
+    <string name="lc_about">关于</string>
+    <string name="lc_header_login">登录</string>
+    <string name="lc_have_not_account">没有账户? <a href="https://www.alertpay.com/signup/signup.aspx">注册!</a></string>
+    <string name="lc_logout">退出</string>
+    <string name="lc_account_header">账户</string>
+    <string name="lc_please_wait">请等待</string>
+    
+</resources>

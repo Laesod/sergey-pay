@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- ZXing consts -->
+  <string name="msg_default_format">Формат</string>
+  <string name="msg_default_type">Тип</string>
+  <string name="msg_default_time">Време</string>
+  <string name="msg_default_meta">Метадата</string>
+  <string name="button_google_shopper">Google Shopper</string>
+  <string name="msg_default_status">Позиционирајте го бар-кодот во правоаголникот на визирот за да го скенирате.</string>
+  <string name="msg_encode_contents_failed">Не е можно да се енкодира бар-кодот од приложените податоци.</string>
+  <string name="button_ok">OK</string>
+  <string name="msg_camera_framework_bug">За жал се појави проблем со Android камерата. Можеби е потребно да го рестартирате вашиот уред.</string>
+  <!-- AP consts -->
+  <string name="app_name">Sergey Pay</string>
+  <string name="lc_receiver_email">E-mail примач</string>
+  <string name="lc_send">Прати</string>
+  <string name="lc_balance">Баланс</string>
+  <string name="lc_send_money">Прати пари</string>
+  <string name="lc_transactions">Трансакции</string>
+  <string name="lc_amount">Сума</string>
+  <string name="lc_currency">Валута</string>
+  <string name="lc_purchase_type">Тип на набавка</string>
+  <string name="lc_note">Забелешка</string>
+  <string name="lc_date_">Датум:</string>
+  <string name="lc_reference_number_">Референтен број:</string>
+  <string name="lc_transaction_type_">Тип на трансакција:</string>
+  <string name="lc_name_email_">Име/Email:</string>
+  <string name="lc_current_status_">Тековен статус:</string>
+  <string name="lc_amount_">Сума:</string>
+  <string name="lc_purchase_type_">Тип на набавка:</string>
+  <string name="lc_shipping_details_">Детали за испорака:</string>
+  <string name="lc_details_optional_">Детали (незадолжително):</string>
+  <string name="lc_transaction_details">Детали за трансакции</string>
+  <string name="lc_scan">Скенирај</string>
+  <string name="lc_encode">Енкодирај</string>
+  <string name="lc_preferences">Параметри</string>
+  <string name="set_preferences">Параметри</string>
+  <string name="preference_category_login_information">Информации за влез</string>
+  <string name="preferences_login_title">Влез</string>
+  <string name="preferences_login_summary">Влез</string>
+  <string name="preferences_password_title">Лозинка</string>
+  <string name="preferences_password_summary">Лозинка</string>
+  <string name="preferences_remember_me_title">Запомни ме</string>
+  <string name="preferences_remember_me_summary">Запомни ме</string>
+  <string name="lc_login">Влез</string>
+  <string name="lc_password">Лозинка</string>
+  <string name="lc_button_login">Влези</string>
+  <string name="lc_remember_me">Запомни ме</string>
+  <string name="lc_button_view_account">Погледни сметка</string>
+  <string name="lc_button_language">Јазик</string>
+  <string name="lc_button_about">За апликацијата</string>
+  <string name="lc_visit_alertpay_com">
+    <a href="https://www.alertpay.com">Посети го AlertPay.com</a>
+  </string>
+  <string name="lc_privacy_and_security">
+    <a href="https://www.alertpay.com/en/privacy.aspx">Приватност и безбедност</a>
+  </string>
+  <string name="lc_legal">
+    <a href="https://www.alertpay.com/en/legal.aspx">Согласност</a>
+  </string>
+  <string name="lc_alertpay_logo">Sergey Pay</string>
+  <string name="lc_alertpay_mobile">Sergey Pay мобилна верзија</string>
+  <string name="lc_version">Верзија 1.0</string>
+  <string name="lc_about">За апликацијата</string>
+  <string name="lc_header_login">Влез</string>
+  <string name="lc_have_not_account">
+    Немате сметка? <a href="https://www.alertpay.com/signup/signup.aspx">Пријавете се!</a>
+  </string>
+  <string name="lc_logout">Излез</string>
+  <string name="lc_account_header">Сметка</string>
+  <string name="lc_please_wait">Ве молиме, почекајте</string>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- ZXing consts -->
+	<string name="msg_default_format">Формат</string>
+	<string name="msg_default_type">Тип</string>
+	<string name="msg_default_time">Час</string>
+	<string name="msg_default_meta">Метадані</string>
+	<string name="button_google_shopper">Google Shopper</string>
+	<string name="msg_default_status">Щоб сканувати штрих-код, помістіть його в прямокутник видошукача.</string>
+	<string name="msg_encode_contents_failed">Неможливо створити штрих-код з поточних даних.</string>
+	<string name="button_ok">OK</string>
+	<string name="msg_camera_framework_bug">На жаль, виникла помилка камери. Вам може знадобитися перезавантаження пристрою.</string>
+	<!-- AP consts -->
+    <string name="app_name">Sergey Pay</string>
+    <string name="lc_receiver_email">E-mail отримувача</string>
+    <string name="lc_send">Надіслати</string>
+    <string name="lc_balance">Баланс</string>
+    <string name="lc_send_money">Відправити гроші</string>
+    <string name="lc_transactions">Транзакції</string>
+    <string name="lc_amount">Сума</string>
+    <string name="lc_currency">Валюта</string>
+    <string name="lc_purchase_type">Тип покупки</string>
+    <string name="lc_note">Примітка</string>
+    <string name="lc_date_">Дата:</string>
+    <string name="lc_reference_number_">Номер:</string>
+    <string name="lc_transaction_type_">Тип транзакції:</string>
+    <string name="lc_name_email_">Iм"я/Email:</string>
+    <string name="lc_current_status_">Поточний стан:</string>
+    <string name="lc_amount_">Сума:</string>
+    <string name="lc_purchase_type_">Тип покупки:</string>
+    <string name="lc_shipping_details_">Інформація про доставку:</string>
+    <string name="lc_details_optional_">Інформація (не обов"язково):</string>
+    <string name="lc_transaction_details">Інформація про транзакції</string>
+    <string name="lc_scan">Сканувати</string>
+	<string name="lc_encode">Закодувати</string>
+	<string name="lc_preferences">Установки</string>
+    <string name="set_preferences">Установки</string>
+    <string name="preference_category_login_information">Обліковий запис</string>
+    <string name="preferences_login_title">Ім"я облікового запису</string>
+    <string name="preferences_login_summary">Ім"я облікового запису</string>
+    <string name="preferences_password_title">Пароль</string>
+    <string name="preferences_password_summary">Пароль</string>
+    <string name="preferences_remember_me_title">Запам"ятати мене</string>
+    <string name="preferences_remember_me_summary">Запам"ятати мене</string>
+    <string name="lc_login">Ім"я облікового запису</string>
+    <string name="lc_password">Пароль</string>
+    <string name="lc_button_login">Увійти</string>
+    <string name="lc_remember_me">Запам"ятати мене</string>
+    <string name="lc_button_view_account">Обліковий запис</string>
+    <string name="lc_button_language">Мова</string>
+    <string name="lc_button_about">Про програму</string>
+    <string name="lc_visit_alertpay_com"><a href="https://www.alertpay.com">Відвідати AlertPay.com</a></string>
+    <string name="lc_privacy_and_security"><a href="https://www.alertpay.com/en/privacy.aspx">Конфіденційність та безпека</a></string>
+    <string name="lc_legal"><a href="https://www.alertpay.com/en/legal.aspx">Правову угоду</a></string>
+    <string name="lc_alertpay_logo">Sergey Pay</string>
+    <string name="lc_alertpay_mobile">Sergey Pay мобільна версія</string>
+    <string name="lc_version">Версія 1.0</string>
+    <string name="lc_about">Про пограмма</string>
+    <string name="lc_header_login">Вхід</string>
+    <string name="lc_have_not_account">Немає облікового запису? <a href="https://www.alertpay.com/signup/signup.aspx">Зареєструватись!</a></string>
+    <string name="lc_logout">Вихід</string>
+    <string name="lc_account_header">Обліковий запис</string>
+    <string name="lc_please_wait">Будь ласка, почекайте</string>
+    
+</resources>
