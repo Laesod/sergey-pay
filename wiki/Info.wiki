@@ -7,3 +7,7 @@ https://sergey-pay.googlecode.com/svn/wiki/salat.png
 https://sergey-pay.googlecode.com/svn/wiki/salat-qr.png
 https://sergey-pay.googlecode.com/svn/wiki/sandwich.png
 https://sergey-pay.googlecode.com/svn/wiki/sandwich-qr.png
+
+[https://play.google.com/store/apps/details?id=poweredby.sergey.pay.app https://developer.android.com/images/brand/en_generic_rgb_wo_60.png]
+
+[http://code.google.com/ http://code.google.com/images/code_sm.png]
